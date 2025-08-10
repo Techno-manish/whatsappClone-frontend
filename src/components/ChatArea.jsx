@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { FaPhone, FaVideo, FaSearch, FaEllipsisV } from "react-icons/fa";
-import MessageBubble from "./MessageBubble";
+import MessageBubble from "./Messagebubble";
 import MessageInput from "./MessageInput";
 import DateSeparator from "./DateSeparator";
 import { messageAPI } from "../services/api";
