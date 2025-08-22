@@ -21,7 +21,7 @@ const ConversationList = ({ selectedConversation, onConversationSelect }) => {
       setConversations(response.data || []);
     } catch (error) {
       console.error("Error loading conversations:", error);
-      setError("Failed to load conversations");
+      setError("Failed to load conversations because of renderer, retry after one minute.");
     } finally {
       setLoading(false);
     }
